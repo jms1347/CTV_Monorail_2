@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 27ee41befcbcef44584ae40fc6a9c361
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUN_TEC_FILM
+    second: {fileID: 2100000, guid: 5fc43ff808f4cdc43921e679407774e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUN_TEC_FRAME_1
+    second: {fileID: 2100000, guid: b073f0fbb6ae2184f8833fcd3067b014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUN_TEC_FRAME_2
+    second: {fileID: 2100000, guid: 5da35d9e62a03934ebd3bf6b133732e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SUN_TEC_FRAME_3_ID
+    second: {fileID: 2100000, guid: 9ae2697cfb8b506438cd345bfe3b02b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_wood
+    second: {fileID: 2100000, guid: f9217aac6ea98e840abe5bfa4e47ccaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: durt_siment
+    second: {fileID: 2100000, guid: ce4e1c32baeae5640a6ef8081d5d95f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: folding_door_metal
+    second: {fileID: 2100000, guid: c99bc5044cc9a63498efbc18a61fbcb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: d5f5a11448124664388a7226a6399b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gray_metal
+    second: {fileID: 2100000, guid: 009b2f1a2a7c89a49b0493723a2a164f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground
+    second: {fileID: 2100000, guid: ab5394e8cc053db43a2aacdb5d51b2e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground_rock
+    second: {fileID: 2100000, guid: 1cef2233c0f7f3c4ba8d8e4b056e7c7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heli_area_ID
+    second: {fileID: 2100000, guid: 35e8fe72f1cece94393691506f96ed1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heli_area_stair
+    second: {fileID: 2100000, guid: 95e9c636fa99e0644b05a937bbb0d855, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hing
+    second: {fileID: 2100000, guid: b9ea8562b76f1d144a974b93be9c1e80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock_block
+    second: {fileID: 2100000, guid: de08d0300a1a6034ca19f7610b4dbb82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seacape_build_ID
+    second: {fileID: 2100000, guid: c569cd015f9e2fb438c8bc2bf9997f3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seonghwadae_ID
+    second: {fileID: 2100000, guid: fa87fec089ba94040951a61ee88276a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_handle__wood
+    second: {fileID: 2100000, guid: 7c5614684c7517247ac7e646a8aac06a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stair_handle_black_metal
+    second: {fileID: 2100000, guid: 4e4f0178b8e83a44e8b76af69d510c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steel_handle
+    second: {fileID: 2100000, guid: 75b312fb12e7a2a4a824790e94e79592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steel_road
+    second: {fileID: 2100000, guid: 58cea2daa0e0cf44ead15959d2859276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water)_tank
+    second: {fileID: 2100000, guid: 6bdf829cd8d2b9843b9a7100e5339aaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_1_ID
+    second: {fileID: 2100000, guid: 0ce1cf97031395549b73d501665901f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_2
+    second: {fileID: 2100000, guid: 344b7211d38277843b0b09a274ced799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_3
+    second: {fileID: 2100000, guid: 7240e7493aef2e64c9bdf76884c38b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_4
+    second: {fileID: 2100000, guid: ac60237fdc3da7e41b181793f0a31773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_5_ID
+    second: {fileID: 2100000, guid: b813d3d1cec898d46ac0f646bc32391d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_7_ID
+    second: {fileID: 2100000, guid: 5e42e6aa2c987664baffb6ed9278eade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_8
+    second: {fileID: 2100000, guid: a1bf533fead5cd74088624ef94c79158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_9_ID
+    second: {fileID: 2100000, guid: 2797b47ffe1d4ef468a5d5f31bce499c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_siment_heli_area_stone
+    second: {fileID: 2100000, guid: eb29a5f7e0fb78040971b019c7adaa24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_frame_black
+    second: {fileID: 2100000, guid: 8607e2ec2ddfbe549b559401f189ad7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_frame_white
+    second: {fileID: 2100000, guid: 3784f36df27ca2a449fbde157f1c6112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_glass
+    second: {fileID: 2100000, guid: 93578839e7f266d43aa9a8767a766e6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_deck
+    second: {fileID: 2100000, guid: 7e30a6e3c7f0213439d44a975370efa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_deck_2
+    second: {fileID: 2100000, guid: 872b564d3e887bd41a89d16cd7133f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_deck_side_tex
+    second: {fileID: 2100000, guid: 7ae7c03110783924ab08c0344c0b0407, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
