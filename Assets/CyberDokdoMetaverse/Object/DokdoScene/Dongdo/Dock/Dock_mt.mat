@@ -130,6 +130,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _BASE_COLOR_WEIGHT: 1
@@ -163,7 +164,7 @@ Material:
     - _REFLECTIONS_WEIGHT: 1
     - _ReceiveShadows: 1
     - _SampleGI: 0
-    - _Smoothness: 0.73
+    - _Smoothness: 0.6
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

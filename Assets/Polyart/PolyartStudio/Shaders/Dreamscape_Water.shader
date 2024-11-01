@@ -290,7 +290,7 @@ Shader "Polyart/Dreamscape Water"
 			#endif
 			CBUFFER_END
 			sampler2D _Displacement;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			uniform float4 CameraDepthTexture_TexelSize;
 			sampler2D _WaveNormal;
 
 
@@ -1422,7 +1422,7 @@ Shader "Polyart/Dreamscape Water"
 			#endif
 			CBUFFER_END
 			sampler2D _Displacement;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			uniform float4 CameraDepthTexture_TexelSize;
 
 
 			inline float noise_randomValue (float2 uv) { return frac(sin(dot(uv, float2(12.9898, 78.233)))*43758.5453); }
@@ -1844,7 +1844,7 @@ Shader "Polyart/Dreamscape Water"
 			#endif
 			CBUFFER_END
 			sampler2D _Displacement;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			uniform float4 CameraDepthTexture_TexelSize;
 
 
 			inline float noise_randomValue (float2 uv) { return frac(sin(dot(uv, float2(12.9898, 78.233)))*43758.5453); }
