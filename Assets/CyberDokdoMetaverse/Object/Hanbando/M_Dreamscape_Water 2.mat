@@ -130,8 +130,8 @@ Material:
     - _WaveTile: 33
     - _WaveTile1: 0
     - _WaveTile2: 20
-    - _WaveTiling01: 20
-    - _WaveTiling02: 80
+    - _WaveTiling01: 500
+    - _WaveTiling02: 250
     - _WorldtoObjectPosition: 1
     - __dirty: 0
     m_Colors:
@@ -140,7 +140,7 @@ Material:
     - _Deep: {r: 0, g: 0.29965103, b: 0.40566036, a: 1}
     - _Deep1: {r: 0.12130647, g: 0.34791896, b: 0.5471698, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.41568628}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.8784314}
     - _Shallow: {r: 0, g: 0.47493523, b: 0.6132076, a: 0}
     - _Shallow1: {r: 0.0028924954, g: 0.47558758, b: 0.6132076, a: 0}
   m_BuildTextureStacks: []
