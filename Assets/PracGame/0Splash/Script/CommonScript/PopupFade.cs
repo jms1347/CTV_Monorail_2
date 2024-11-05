@@ -23,7 +23,7 @@ public class PopupFade : MonoBehaviour
         this.gameObject.SetActive(true);
         canvasGroup.DOFade(1, duration).SetEase(Ease.OutQuad);
     }
-
+        
     public void ClosePopup()
     {
         canvasGroup.DOFade(0, duration).SetEase(Ease.InQuad).OnComplete(()=> {

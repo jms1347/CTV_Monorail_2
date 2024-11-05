@@ -8,11 +8,12 @@ public class RotFollowByMainCamera : MonoBehaviour
     //public float rotationSpeed = 50f;
     public float maxRotationSpeed = 50f; // 최대 회전 속도
     public float minRotationSpeed = 20f; // 최소 회전 속도
+    public float startCameraRot;
 
     private void Update()
     {
         // 메인 카메라의 Y 회전 값 가져오기
-        float cameraYRotation = mainCamera.localRotation.eulerAngles.y;
+        float cameraYRotation = mainCamera.localRotation.eulerAngles.y + startCameraRot;
 
         // 플레이어와 메인 카메라의 거리 계산
         float distance = Vector3.Distance(transform.position, mainCamera.position);

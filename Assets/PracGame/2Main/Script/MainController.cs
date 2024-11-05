@@ -1,11 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using ZenFulcrum.Track;
 
 public class MainController : MonoBehaviour
 {
     [Header("게임 변수")]
-    public GameObject Cart;
-
+    public TrackCart Cart;
+    public Station station;
     public CountDown countDown;
 
     public GameObject restartBtn;
@@ -28,6 +29,8 @@ public class MainController : MonoBehaviour
         SoundManager.instance.StopBGM();
         SoundManager.instance.StopSfx();
         SoundManager.instance.PlayBGMByKey("pado");
+        station.startingForce.targetSpeed = 0f;
+
     }
 
     public IEnumerator GameStartCour()
@@ -37,23 +40,22 @@ public class MainController : MonoBehaviour
         yield return StartCoroutine(countDown.CountDownCour());
         isGameStart = true;
         StartCart();
-        for (int i = 0; i < 1550; i++) yield return time;
+        yield return Utils.WaitForSecond(450f);
         StopCart();
 
     }
 
     public void StartCart()
     {
-        Cart.GetComponent<Animator>().SetTrigger("Start");
-        Cart.GetComponent<Animator>().speed = 1f;
-        SoundManager.instance.PlaySFXByKey("monorail");
+        //카드시작
+        station.startingForce.targetSpeed = 1f;
+
     }
 
     public void StopCart()
     {
-        Cart.GetComponent<Animator>().speed = 0f;
-        SoundManager.instance.StopSfx();
         restartBtn.SetActive(true);
+        station.startingForce.targetSpeed = 0f;
     }
 
     public void ReStart()
