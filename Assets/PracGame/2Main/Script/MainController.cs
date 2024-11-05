@@ -7,6 +7,7 @@ public class MainController : MonoBehaviour
     [Header("게임 변수")]
     public TrackCart Cart;
     public Station station;
+    public Track endTrack;
     public CountDown countDown;
 
     public GameObject restartBtn;
@@ -40,7 +41,7 @@ public class MainController : MonoBehaviour
         yield return StartCoroutine(countDown.CountDownCour());
         isGameStart = true;
         StartCart();
-        yield return Utils.WaitForSecond(450f);
+        yield return new WaitUntil(() => Cart.CurrentTrack == endTrack);
         StopCart();
 
     }
@@ -65,6 +66,11 @@ public class MainController : MonoBehaviour
         //SoundManager.instance.PlaySFXByKey("click1");
         //FadeManager.instance.ChangeScene("MainScene");
         LoadingSceneManager.LoadScene("MainScene");
+    }
+
+    public void End()
+    {
+        Application.Quit();
     }
 
     public void ClickSound()
