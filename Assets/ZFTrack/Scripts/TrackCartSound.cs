@@ -182,6 +182,8 @@ This top speed corresponds to the right edge of the volumeVsSpeed curve.")]
 			source.priority = primarySource.priority;
 			source.rolloffMode = primarySource.rolloffMode;
 			source.spread = primarySource.spread;
+				source.outputAudioMixerGroup = primarySource.outputAudioMixerGroup;
+
 #if UNITY_5
 			source.outputAudioMixerGroup = primarySource.outputAudioMixerGroup;
 			source.panStereo = primarySource.panStereo;
@@ -189,7 +191,7 @@ This top speed corresponds to the right edge of the volumeVsSpeed curve.")]
 			source.spatialBlend = primarySource.spatialBlend;
 #endif
 
-			source.loop = true;
+				source.loop = true;
 			source.hideFlags = HideFlags.NotEditable;
 
 			sources.Add(source);

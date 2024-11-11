@@ -14,6 +14,11 @@ public class MainController : MonoBehaviour
     IEnumerator startCour;
     public bool isGameStart = false;
 
+    public float maxSpeed = 10f;
+    public float initialAcceleration = 0.25f; // 초기 가속도
+    private float currentAcceleration; // 현재 가속도
+    public float accelerationIncreaseRate = 0.1f; // 가속도 증가율
+
     public void Start()
     {
         GameStart();
@@ -40,7 +45,21 @@ public class MainController : MonoBehaviour
         GameInit();
         yield return StartCoroutine(countDown.CountDownCour());
         isGameStart = true;
-        StartCart();
+        currentAcceleration = initialAcceleration; // 현재 가속도를 초기 가속도로 설정
+
+        while (isGameStart)
+        {
+            if (station.startingForce.targetSpeed < maxSpeed)
+            {
+                StartCart();
+
+                yield return null;
+            }
+            else
+            {
+                break;
+            }
+        }
         yield return new WaitUntil(() => Cart.CurrentTrack == endTrack);
         StopCart();
 
@@ -48,9 +67,8 @@ public class MainController : MonoBehaviour
 
     public void StartCart()
     {
-        //카드시작
-        station.startingForce.targetSpeed = 1f;
-
+        station.startingForce.targetSpeed += currentAcceleration * Time.deltaTime; // 가속도 적용
+        currentAcceleration += accelerationIncreaseRate * Time.deltaTime; // 가속도 증가
     }
 
     public void StopCart()

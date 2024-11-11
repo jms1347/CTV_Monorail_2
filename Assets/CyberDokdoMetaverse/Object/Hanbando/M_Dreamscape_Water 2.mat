@@ -92,7 +92,7 @@ Material:
     - _ChromaticAberration: 0.1
     - _ColorDepthFade: 0
     - _ColorDepthFade1: 4.28
-    - _DisplaceStrength: -0.06
+    - _DisplaceStrength: -0.5
     - _DisplaceStrength1: 0.18
     - _FarAlpha: 1.01
     - _FarAlpha1: 1
@@ -117,7 +117,7 @@ Material:
     - _RefractionDepthStrength1: 0
     - _RefractionStrength: 1
     - _RefractionStrength1: 0.33
-    - _Smoothness: 1
+    - _Smoothness: 0.82
     - _TurbulenceDistortionIntensity: 1.84
     - _TurbulenceDistortionIntensity1: 0.8
     - _TurbulenceScale: 12.7
@@ -126,16 +126,16 @@ Material:
     - _TurbulenceTiling1: 0
     - _WaveDistortionIntensity: 4
     - _WaveDistortionIntensity1: 0.6
-    - _WaveNormalIntensity: 1
+    - _WaveNormalIntensity: 0.8
     - _WaveTile: 33
     - _WaveTile1: 0
     - _WaveTile2: 20
-    - _WaveTiling01: 500
-    - _WaveTiling02: 250
+    - _WaveTiling01: 300
+    - _WaveTiling02: 180
     - _WorldtoObjectPosition: 1
     - __dirty: 0
     m_Colors:
-    - _ColorDeep: {r: 0.033254907, g: 0.10890982, b: 0.20784314, a: 0}
+    - _ColorDeep: {r: 0.078720205, g: 0.35253242, b: 0.5754717, a: 0}
     - _ColorShallow: {r: 0, g: 0, b: 0, a: 0}
     - _Deep: {r: 0, g: 0.29965103, b: 0.40566036, a: 1}
     - _Deep1: {r: 0.12130647, g: 0.34791896, b: 0.5471698, a: 0}
