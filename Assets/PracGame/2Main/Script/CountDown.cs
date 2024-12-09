@@ -42,20 +42,17 @@ public class CountDown : MonoBehaviour
 
         countdownText.text = "";
         yield return new WaitUntil(() => isClickStartBtn);
-        //countdownText.text = "3";
+       
         StartCountDown("3");
         SoundManager.instance.PlaySFXByKey(countdownSoundKey);
         for (int i = 0; i < 10; i++) yield return time;
         SoundManager.instance.PlaySFXByKey(countdownSoundKey);
-        //countdownText.text = "2";
         StartCountDown("2");
         for (int i = 0; i < 10; i++) yield return time;
         SoundManager.instance.PlaySFXByKey(countdownSoundKey);
-        //countdownText.text = "1";
         StartCountDown("1");
         for (int i = 0; i < 10; i++) yield return time;
         SoundManager.instance.PlaySFXByKey(countdownSoundKey);
-        //countdownText.text = "START!";
         StartCountDown("START!", 1.0f);
 
         for (int i = 0; i < 10; i++) yield return time;
@@ -86,6 +83,11 @@ public class CountDown : MonoBehaviour
     public bool CheckEndCountDown()
     {
         return isClickStartBtn;
+    }
+
+    public void StartCountDown()
+    {
+        isClickStartBtn = true;
     }
     #endregion
 }

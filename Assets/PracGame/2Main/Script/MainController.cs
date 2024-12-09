@@ -10,6 +10,7 @@ public class MainController : MonoBehaviour
     public Track endTrack;
     public CountDown countDown;
 
+    public GameObject title;
     public GameObject restartBtn;
     IEnumerator startCour;
     public bool isGameStart = false;
@@ -43,6 +44,10 @@ public class MainController : MonoBehaviour
     {
         var time = new WaitForSeconds(0.1f);
         GameInit();
+        title.SetActive(true);
+        yield return Utils.WaitForSecond(2.0f);
+        title.SetActive(false);
+        countDown.StartCountDown();
         yield return StartCoroutine(countDown.CountDownCour());
         isGameStart = true;
         currentAcceleration = initialAcceleration; // 현재 가속도를 초기 가속도로 설정
