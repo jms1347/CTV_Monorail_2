@@ -248,6 +248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoadingUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6862459444733022322, guid: fd7582b3c2025434c961b3f229117ecf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9058664921185966559, guid: fd7582b3c2025434c961b3f229117ecf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -290,7 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9058664921185966559, guid: fd7582b3c2025434c961b3f229117ecf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 9058664921185966559, guid: fd7582b3c2025434c961b3f229117ecf, type: 3}
       propertyPath: m_LocalRotation.w

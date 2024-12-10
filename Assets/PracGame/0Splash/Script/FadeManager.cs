@@ -20,7 +20,7 @@ public class FadeManager : Singleton<FadeManager>
     }
     IEnumerator LoadScene(string sceneName)
     {
-        Loading.SetActive(true); //로딩 화면을 띄움
+        //Loading.SetActive(true); //로딩 화면을 띄움
 
         AsyncOperation async = SceneManager.LoadSceneAsync(sceneName);
         async.allowSceneActivation = false; //퍼센트 딜레이용
@@ -48,7 +48,7 @@ public class FadeManager : Singleton<FadeManager>
                 percentage = Mathf.Lerp(percentage, async.progress * 100f, past_time);
                 if (percentage >= 90) past_time = 0;
             }
-            Loading_text.text = percentage.ToString("0") + "%"; //로딩 퍼센트 표기
+           // Loading_text.text = percentage.ToString("0") + "%"; //로딩 퍼센트 표기
         }
     }
 

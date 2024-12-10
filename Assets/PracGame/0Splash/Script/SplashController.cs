@@ -18,8 +18,8 @@ public class SplashController : MonoBehaviour
     private void SetAllGoogleData()
     {
        // Debug.Log("·Îºñ¾À ÀÌµ¿");
-        //FadeManager.instance.ChangeScene("MainScene");
-        LoadingSceneManager.LoadScene("MainScene");
+        FadeManager.instance.ChangeScene("MainScene");
+       // LoadingSceneManager.LoadScene("MainScene");
 
     }
 }
